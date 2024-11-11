@@ -1,0 +1,6 @@
+.heading{
+    font-size: 36px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    font-family: var(--heading-font);
+  }

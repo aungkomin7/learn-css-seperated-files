@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/app.css" />
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url("./images/background.jpg");
+            background-size: cover;
+        }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="form">
+        <h1 class="heading">Student Register</h1>
+        <form action="#" method="get">
+          <div class="input-group">
+            <label for="yourName" class="input-label">Your Name</label>
+            <input
+              type="text"
+              name="yourname"
+              id="yourName"
+              class="input"
+              placeholder="eg. Kyaw Kyaw"
+              required
+            />
+          </div>
+
+          <div class="input-group">
+            <label for="nationality" class="input-label">Nationality</label>
+            <select name="nationality" id="nationality" class="select">
+              <option value="mm">Myanmar</option>
+              <option value="th">Thailand</option>
+              <option value="sg">Singapore</option>
+              <option value="jp">Japan</option>
+            </select>
+          </div>
+
+          <div class="input-group">
+            <label for="">Your Skills</label>
+            <div class="">
+              <input
+                type="checkbox"
+                name="skills"
+                value="html"
+                id="html"
+                class="checkbox"
+              />
+              <label for="html" class="checkbox-label">HTML</label>
+            </div>
+            <div class="">
+              <input
+                type="checkbox"
+                name="skills"
+                value="css"
+                id="css"
+                class="checkbox"
+              />
+              <label for="css" class="checkbox-label">CSS</label>
+            </div>
+            <div class="">
+              <input
+                type="checkbox"
+                name="skills"
+                value="js"
+                id="js"
+                class="checkbox"
+              />
+              <label for="js" class="checkbox-label">JavaScript</label>
+            </div>
+          </div>
+          <div class="input-group">
+            <label for="yourEmail" class="input-label">Your Email</label>
+            <input
+              type="email"
+              name="youremail"
+              id="yourEmail"
+              class="input"
+              placeholder="eg. kyawkyaw@gmail.com"
+              required
+            />
+          </div>
+          <div class="input-group mb-50">
+            <label for="password" class="input-label">Password</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              class="input"
+              required
+            />
+          </div>
+          <button class="btn btn-dark btn-right">Register</button>
+        </form>
+      </div>
+    </main>
+    <i class="ph ph-smiley"></i>
+    <i class="ph-fill ph-heart" style="color: hotpink"></i>
+    <i class="ph-thin ph-cube"></i>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+.menu{
+    border: 1px solid black;
+    width: 300px;
+    overflow: hidden;
+    
+}
+
+.menu-item{
+    padding: 10px 15px;
+    border-bottom: 1px solid black;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.menu-item:last-child{
+    border-bottom: none;
+}
+
+.menu-h{
+    width: 100%;
+}
+
+.menu-h .menu-item{
+    display: inline-block;
+    border-bottom: none;
+}
+
+.item-hover .menu-item:hover{
+    background-color: var(--gray-hover);
+}
+
+.menu-item.active{
+    background-color: var(--gray-hover);
+}

@@ -1,0 +1,58 @@
+.table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table tr{
+
+}
+
+.table th, .table td{
+    border: 1px solid transparent;
+    padding: 10px 15px;
+}
+
+.table-border-blue th, .table-border-blue td{
+    border-bottom: 1px solid var(--blue);
+    padding: 10px 15px;
+}
+
+.table-border-pink th, .table-border-pink td{
+    border: 1px solid var(--pink);
+    padding: 10px 15px;
+}
+
+.table .thead-blue{
+    background: var(--blue);
+    color: white;
+}
+
+.table .thead-pink{
+    background: var(--pink);
+    color: white;
+}
+
+.table-hover tbody tr:hover{
+    background-color: var(--gray-hover);
+}
+
+.table-border-blue.table-hover tbody tr:hover{
+    background-color: rgb(140, 182, 224);
+}
+
+.table-border-pink.table-hover tbody tr:hover{
+    background-color: rgb(230, 160, 218);
+}
+
+.table-strip tbody tr:nth-child(odd){
+    background-color: rgb(216, 218, 221);
+}
+
+.table-border-blue.table-strip tbody tr:nth-child(odd){
+    background-color: rgb(220, 230, 245);
+}
+
+.table-border-pink.table-strip tbody tr:nth-child(odd){
+    background-color: rgb(240, 222, 243);
+}
+
